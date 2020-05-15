@@ -1,0 +1,6 @@
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\Console  practice\bin\Debug\Console  practice.exe.config
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\Console  practice\bin\Debug\Console  practice.exe
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\Console  practice\bin\Debug\Console  practice.pdb
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\Console  practice\obj\Debug\Console  practice.csprojAssemblyReference.cache
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\Console  practice\obj\Debug\Console  practice.exe
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\Console  practice\obj\Debug\Console  practice.pdb
