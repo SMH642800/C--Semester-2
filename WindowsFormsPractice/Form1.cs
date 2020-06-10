@@ -12,12 +12,16 @@ namespace WindowsFormsPractice
 {
     public partial class Form1 : Form
     {
+<<<<<<< HEAD
         int[] answer = new int[6] { 1, 1, 2, 2, 3, 3};
         int perState = 0;
+=======
+>>>>>>> 72395cbeb261ee093d2f0c01ae0b25b9d6b63ce3
         public Form1()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
         private void shuffle()
         {
@@ -81,5 +85,7 @@ namespace WindowsFormsPractice
         {
             shuffle();
         }
+=======
+>>>>>>> 72395cbeb261ee093d2f0c01ae0b25b9d6b63ce3
     }
 }

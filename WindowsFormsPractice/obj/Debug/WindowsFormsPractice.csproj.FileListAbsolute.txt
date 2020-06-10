@@ -8,6 +8,9 @@ C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsForms
 C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.csprojAssemblyReference.cache
 C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.Form2.resources
 C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.Form3.resources
+<<<<<<< HEAD
 C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.csproj.CoreCompileInputs.cache
 C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.Form1.resources
 C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.Form5.resources
+=======
+>>>>>>> 72395cbeb261ee093d2f0c01ae0b25b9d6b63ce3

@@ -16,7 +16,11 @@ namespace WindowsFormsPractice
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new Form5());
+=======
+            Application.Run(new Form3());
+>>>>>>> 72395cbeb261ee093d2f0c01ae0b25b9d6b63ce3
         }
     }
 }
