@@ -1,0 +1,10 @@
+C:\Users\Hsieh Meng-Hao\source\repos\Card_Game\Card_Game\bin\Debug\Card_Game.exe.config
+C:\Users\Hsieh Meng-Hao\source\repos\Card_Game\Card_Game\bin\Debug\Card_Game.exe
+C:\Users\Hsieh Meng-Hao\source\repos\Card_Game\Card_Game\bin\Debug\Card_Game.pdb
+C:\Users\Hsieh Meng-Hao\source\repos\Card_Game\Card_Game\obj\Debug\Card_Game.csprojAssemblyReference.cache
+C:\Users\Hsieh Meng-Hao\source\repos\Card_Game\Card_Game\obj\Debug\Card_Game.Form1.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Card_Game\Card_Game\obj\Debug\Card_Game.Properties.Resources.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Card_Game\Card_Game\obj\Debug\Card_Game.csproj.GenerateResource.cache
+C:\Users\Hsieh Meng-Hao\source\repos\Card_Game\Card_Game\obj\Debug\Card_Game.csproj.CoreCompileInputs.cache
+C:\Users\Hsieh Meng-Hao\source\repos\Card_Game\Card_Game\obj\Debug\Card_Game.exe
+C:\Users\Hsieh Meng-Hao\source\repos\Card_Game\Card_Game\obj\Debug\Card_Game.pdb

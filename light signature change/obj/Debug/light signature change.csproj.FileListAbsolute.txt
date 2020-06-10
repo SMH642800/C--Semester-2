@@ -1,0 +1,2 @@
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\light signature change\obj\Debug\light_signature_change.Properties.Resources.resources
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\light signature change\obj\Debug\light signature change.csproj.GenerateResource.cache

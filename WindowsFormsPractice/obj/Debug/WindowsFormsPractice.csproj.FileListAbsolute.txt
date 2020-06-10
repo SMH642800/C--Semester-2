@@ -1,0 +1,13 @@
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\bin\Debug\WindowsFormsPractice.exe.config
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\bin\Debug\WindowsFormsPractice.exe
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\bin\Debug\WindowsFormsPractice.pdb
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.Properties.Resources.resources
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.csproj.GenerateResource.cache
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.exe
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.pdb
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.csprojAssemblyReference.cache
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.Form2.resources
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.Form3.resources
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.csproj.CoreCompileInputs.cache
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.Form1.resources
+C:\Users\Hsieh Meng-Hao\source\repos\WindowsFormsPractice\obj\Debug\WindowsFormsPractice.Form5.resources

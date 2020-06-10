@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.36
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "跑馬燈", "跑馬燈\跑馬燈.csproj", "{6E570EDD-D87E-43CA-B44F-7B2D76B8C6AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E570EDD-D87E-43CA-B44F-7B2D76B8C6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E570EDD-D87E-43CA-B44F-7B2D76B8C6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E570EDD-D87E-43CA-B44F-7B2D76B8C6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E570EDD-D87E-43CA-B44F-7B2D76B8C6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AAE4603-CF77-497E-B90C-6DA48180980D}
+	EndGlobalSection
+EndGlobal

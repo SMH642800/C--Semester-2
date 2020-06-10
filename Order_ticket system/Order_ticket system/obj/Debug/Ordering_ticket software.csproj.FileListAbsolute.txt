@@ -1,0 +1,10 @@
+C:\Users\Hsieh Meng-Hao\source\repos\Order_ticket system\Order_ticket system\bin\Debug\Order_ticket system.exe.config
+C:\Users\Hsieh Meng-Hao\source\repos\Order_ticket system\Order_ticket system\bin\Debug\Order_ticket system.exe
+C:\Users\Hsieh Meng-Hao\source\repos\Order_ticket system\Order_ticket system\bin\Debug\Order_ticket system.pdb
+C:\Users\Hsieh Meng-Hao\source\repos\Order_ticket system\Order_ticket system\obj\Debug\Ordering_ticket software.csprojAssemblyReference.cache
+C:\Users\Hsieh Meng-Hao\source\repos\Order_ticket system\Order_ticket system\obj\Debug\Order_ticket_system.Form1.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Order_ticket system\Order_ticket system\obj\Debug\Order_ticket_system.Properties.Resources.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Order_ticket system\Order_ticket system\obj\Debug\Ordering_ticket software.csproj.GenerateResource.cache
+C:\Users\Hsieh Meng-Hao\source\repos\Order_ticket system\Order_ticket system\obj\Debug\Ordering_ticket software.csproj.CoreCompileInputs.cache
+C:\Users\Hsieh Meng-Hao\source\repos\Order_ticket system\Order_ticket system\obj\Debug\Order_ticket system.exe
+C:\Users\Hsieh Meng-Hao\source\repos\Order_ticket system\Order_ticket system\obj\Debug\Order_ticket system.pdb

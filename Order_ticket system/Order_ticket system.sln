@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.36
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering_ticket software", "Order_ticket system\Ordering_ticket software.csproj", "{0AF4C8FC-1212-4012-B906-F07C558A45E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AF4C8FC-1212-4012-B906-F07C558A45E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF4C8FC-1212-4012-B906-F07C558A45E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF4C8FC-1212-4012-B906-F07C558A45E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF4C8FC-1212-4012-B906-F07C558A45E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00B4E0D6-9505-4901-B6CF-5ABAA0C5878E}
+	EndGlobalSection
+EndGlobal

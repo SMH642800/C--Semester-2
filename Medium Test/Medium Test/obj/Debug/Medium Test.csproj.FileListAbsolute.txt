@@ -1,0 +1,15 @@
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\bin\Debug\Medium Test.exe.config
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\bin\Debug\Medium Test.exe
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\bin\Debug\Medium Test.pdb
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\obj\Debug\Medium Test.csprojAssemblyReference.cache
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\obj\Debug\Medium_Test.exam1_a.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\obj\Debug\Medium_Test.exam1_e.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\obj\Debug\Medium_Test.Form1.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\obj\Debug\Medium_Test.Properties.Resources.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\obj\Debug\Medium Test.csproj.GenerateResource.cache
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\obj\Debug\Medium Test.csproj.CoreCompileInputs.cache
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\obj\Debug\Medium Test.exe
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\obj\Debug\Medium Test.pdb
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\obj\Debug\Medium_Test.exam1_b.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\obj\Debug\Medium_Test.exam1_c.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Medium Test\Medium Test\obj\Debug\Medium_Test.exam1_d.resources

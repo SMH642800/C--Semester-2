@@ -1,0 +1,9 @@
+﻿  test programe.cpp
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\test programe\test programe.cpp(6,30): error C2660: 'fopen_s': function does not take 2 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(97,34): message : see declaration of 'fopen_s'
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\test programe\test programe.cpp(7,28): error C2664: 'int fprintf(FILE *const ,const char *const ,...)': cannot convert argument 1 from 'FILE **' to 'FILE *const '
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\test programe\test programe.cpp(7,10): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(828,37): message : see declaration of 'fprintf'
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\test programe\test programe.cpp(8,11): error C2664: 'int fclose(FILE *)': cannot convert argument 1 from 'FILE **' to 'FILE *'
+C:\Users\Hsieh Meng-Hao\Documents\Visual Studio 2019\test programe\test programe.cpp(8,9): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(147,26): message : see declaration of 'fclose'

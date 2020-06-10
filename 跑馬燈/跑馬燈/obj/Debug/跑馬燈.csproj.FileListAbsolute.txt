@@ -1,0 +1,10 @@
+C:\Users\Hsieh Meng-Hao\source\repos\跑馬燈\跑馬燈\bin\Debug\跑馬燈.exe.config
+C:\Users\Hsieh Meng-Hao\source\repos\跑馬燈\跑馬燈\bin\Debug\跑馬燈.exe
+C:\Users\Hsieh Meng-Hao\source\repos\跑馬燈\跑馬燈\bin\Debug\跑馬燈.pdb
+C:\Users\Hsieh Meng-Hao\source\repos\跑馬燈\跑馬燈\obj\Debug\跑馬燈.csprojAssemblyReference.cache
+C:\Users\Hsieh Meng-Hao\source\repos\跑馬燈\跑馬燈\obj\Debug\跑馬燈.Form1.resources
+C:\Users\Hsieh Meng-Hao\source\repos\跑馬燈\跑馬燈\obj\Debug\跑馬燈.Properties.Resources.resources
+C:\Users\Hsieh Meng-Hao\source\repos\跑馬燈\跑馬燈\obj\Debug\跑馬燈.csproj.GenerateResource.cache
+C:\Users\Hsieh Meng-Hao\source\repos\跑馬燈\跑馬燈\obj\Debug\跑馬燈.csproj.CoreCompileInputs.cache
+C:\Users\Hsieh Meng-Hao\source\repos\跑馬燈\跑馬燈\obj\Debug\跑馬燈.exe
+C:\Users\Hsieh Meng-Hao\source\repos\跑馬燈\跑馬燈\obj\Debug\跑馬燈.pdb
