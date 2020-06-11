@@ -39,37 +39,50 @@ namespace Order_ticket_system
         private void TotalPrice()
         {
             int price = 0;
+            
             for (int i = 0; i < listBox1.Items.Count; i++)
             {
                 string str = listBox1.Items[i].ToString();
-                string ticket_type = str.Substring(0, str.Length - 1);
-                string ticket_number = str.Substring(str.Length-1,1);
+                string movie = str.Substring(0, str.Length - 8);
+                string ticket_type = str.Substring(str.Length - 7, 3);
+                string ticket_number = str.Substring(str.Length - 1, 1);
                 int n = int.Parse(ticket_number);
 
-                if (ticket_type == movie1+","+ticket_type1+ " X ") price += 250 * n;
-                else if (ticket_type == movie1 + "," + ticket_type2 + " X ") price += 150 * n;
-                else if (ticket_type == movie1 + "," + ticket_type3 + " X ") price += 200 * n;
-                else if (ticket_type == movie1 + "," + ticket_type4 + " X ") price += 175 * n;
-
-                else if (ticket_type == movie2 + "," + ticket_type1 + " X ") price += 250 * n;
-                else if (ticket_type == movie2 + "," + ticket_type2 + " X ") price += 150 * n;
-                else if (ticket_type == movie2 + "," + ticket_type3 + " X ") price += 200 * n;
-                else if (ticket_type == movie2 + "," + ticket_type4 + " X ") price += 175 * n;
-
-                else if (ticket_type == movie3 + "," + ticket_type1 + " X ") price += 250 * n;
-                else if (ticket_type == movie3 + "," + ticket_type2 + " X ") price += 150 * n;
-                else if (ticket_type == movie3 + "," + ticket_type3 + " X ") price += 200 * n;
-                else if (ticket_type == movie3 + "," + ticket_type4 + " X ") price += 175 * n;
-
-                else if (ticket_type == movie4 + "," + ticket_type1 + " X ") price += 250 * n;
-                else if (ticket_type == movie4 + "," + ticket_type2 + " X ") price += 150 * n;
-                else if (ticket_type == movie4 + "," + ticket_type3 + " X ") price += 200 * n;
-                else if (ticket_type == movie4 + "," + ticket_type4 + " X ") price += 175 * n;
-
-                else if (ticket_type == movie5 + "," + ticket_type1 + " X ") price += 250 * n;
-                else if (ticket_type == movie5 + "," + ticket_type2 + " X ") price += 150 * n;
-                else if (ticket_type == movie5 + "," + ticket_type3 + " X ") price += 200 * n;
-                else if (ticket_type == movie5 + "," + ticket_type4 + " X ") price += 175 * n;
+                if (movie == movie1)
+                {
+                    if (ticket_type == ticket_type1) price += 250 * n;
+                    else if (ticket_type == ticket_type2) price += 150 * n;
+                    else if (ticket_type == ticket_type3) price += 200 * n;
+                    else if (ticket_type == ticket_type4) price += 175 * n;
+                }
+                if (movie == movie5)
+                {
+                    if (ticket_type == ticket_type1) price += 250 * n;
+                    else if (ticket_type == ticket_type2) price += 150 * n;
+                    else if (ticket_type == ticket_type3) price += 200 * n;
+                    else if (ticket_type == ticket_type4) price += 175 * n;
+                }
+                if (movie == movie2)
+                {
+                    if (ticket_type == ticket_type1) price += 250 * n;
+                    else if (ticket_type == ticket_type2) price += 150 * n;
+                    else if (ticket_type == ticket_type3) price += 200 * n;
+                    else if (ticket_type == ticket_type4) price += 175 * n;
+                }
+                if (movie == movie3)
+                {
+                    if (ticket_type == ticket_type1) price += 250 * n;
+                    else if (ticket_type == ticket_type2) price += 150 * n;
+                    else if (ticket_type == ticket_type3) price += 200 * n;
+                    else if (ticket_type == ticket_type4) price += 175 * n;
+                }
+                if (movie == movie4)
+                {
+                    if (ticket_type == ticket_type1) price += 250 * n;
+                    else if (ticket_type == ticket_type2) price += 150 * n;
+                    else if (ticket_type == ticket_type3) price += 200 * n;
+                    else if (ticket_type == ticket_type4) price += 175 * n;
+                }
             }
 
             label4.Text = price.ToString() + "元";

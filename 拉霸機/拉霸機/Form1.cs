@@ -13,7 +13,7 @@ namespace 拉霸機
 {
     public partial class Form1 : Form
     {
-        private int count = 1000;
+        private int count = 0;
         private int score = 0;
 
         public Form1()
@@ -40,16 +40,16 @@ namespace 拉霸機
 
             if (count > 0)
             {
-                count -= 10;
-                if (count == 500)
+                count -= 5;
+                if (count == 100)
                 {
-                    timer1.Interval = 50;
-                }
-                if (count == 250)
-                {
-                    timer1.Interval = 250;
+                    timer1.Interval = 100;
                 }
                 if (count == 50)
+                {
+                    timer1.Interval = 300;
+                }
+                if (count == 10)
                 {
                     timer1.Interval = 500;
                 }
@@ -166,10 +166,10 @@ namespace 拉霸機
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
             pictureBox1.Image = new Bitmap(@"picture\down.jpg");
-            count = 1000;
+            count = 500;
             score = 0;
             label1.Text = "得分 : " + score.ToString();
-            timer1.Interval = 10;
+            timer1.Interval = 30;
             timer1.Enabled = true;
         }
 
