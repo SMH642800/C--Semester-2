@@ -12,6 +12,19 @@ namespace Order_ticket_system
 {
     public partial class Form1 : Form
     {
+        private int count = 1;
+
+        private string movie1 = "動物方程式";
+        private string movie2 = "冰雪奇緣2";
+        private string movie3 = "黑魔女";
+        private string movie4 = "星際大戰8";
+        private string movie5 = "天氣之子";
+
+        private string ticket_type1 = "一般票";
+        private string ticket_type2 = "兒童票";
+        private string ticket_type3 = "學生票";
+        private string ticket_type4 = "老人票";
+
         public Form1()
         {
             InitializeComponent();
@@ -29,42 +42,34 @@ namespace Order_ticket_system
             for (int i = 0; i < listBox1.Items.Count; i++)
             {
                 string str = listBox1.Items[i].ToString();
+                string ticket_type = str.Substring(0, str.Length - 1);
+                string ticket_number = str.Substring(str.Length-1,1);
+                int n = int.Parse(ticket_number);
 
-                if (str == "動物方程式,一般票1張") price += 250;
-                else if (str == "動物方程式,兒童票1張") price += 150;
-                else if (str == "動物方程式,學生票1張") price += 200;
-                else if (str == "動物方程式,老人票1張") price += 175;
+                if (ticket_type == movie1+","+ticket_type1+ " X ") price += 250 * n;
+                else if (ticket_type == movie1 + "," + ticket_type2 + " X ") price += 150 * n;
+                else if (ticket_type == movie1 + "," + ticket_type3 + " X ") price += 200 * n;
+                else if (ticket_type == movie1 + "," + ticket_type4 + " X ") price += 175 * n;
 
-                else if (str == "冰雪奇緣2,一般票1張") price += 250;
-                else if (str == "冰雪奇緣2,兒童票1張") price += 150;
-                else if (str == "冰雪奇緣2,學生票1張") price += 200;
-                else if (str == "冰雪奇緣2,老人票1張") price += 175;
+                else if (ticket_type == movie2 + "," + ticket_type1 + " X ") price += 250 * n;
+                else if (ticket_type == movie2 + "," + ticket_type2 + " X ") price += 150 * n;
+                else if (ticket_type == movie2 + "," + ticket_type3 + " X ") price += 200 * n;
+                else if (ticket_type == movie2 + "," + ticket_type4 + " X ") price += 175 * n;
 
-                else if (str == "黑魔女,一般票1張") price += 250;
-                else if (str == "黑魔女,兒童票1張") price += 150;
-                else if (str == "黑魔女,學生票1張") price += 200;
-                else if (str == "黑魔女,老人票1張") price += 175;
+                else if (ticket_type == movie3 + "," + ticket_type1 + " X ") price += 250 * n;
+                else if (ticket_type == movie3 + "," + ticket_type2 + " X ") price += 150 * n;
+                else if (ticket_type == movie3 + "," + ticket_type3 + " X ") price += 200 * n;
+                else if (ticket_type == movie3 + "," + ticket_type4 + " X ") price += 175 * n;
 
-                else if (str == "星際大戰8,一般票1張") price += 250;
-                else if (str == "星際大戰8,兒童票1張") price += 150;
-                else if (str == "星際大戰8,學生票1張") price += 200;
-                else if (str == "星際大戰8,老人票1張") price += 175;
+                else if (ticket_type == movie4 + "," + ticket_type1 + " X ") price += 250 * n;
+                else if (ticket_type == movie4 + "," + ticket_type2 + " X ") price += 150 * n;
+                else if (ticket_type == movie4 + "," + ticket_type3 + " X ") price += 200 * n;
+                else if (ticket_type == movie4 + "," + ticket_type4 + " X ") price += 175 * n;
 
-                else if (str == "天氣之子,一般票1張") price += 250;
-                else if (str == "天氣之子,兒童票1張") price += 150;
-                else if (str == "天氣之子,學生票1張") price += 200;
-                else if (str == "天氣之子,老人票1張") price += 175;
-            }
-            for (int i = 0; i < listBox2.Items.Count; i++)
-            {
-                string str = listBox2.Items[i].ToString();
-
-                if (str == "爆米花(大)") price += 80;
-                else if (str == "爆米花(中)") price += 50;
-                else if (str == "爆米花(小)") price += 30;
-
-                else if (str == "可樂") price += 40;
-                else if (str == "雪碧") price += 40;
+                else if (ticket_type == movie5 + "," + ticket_type1 + " X ") price += 250 * n;
+                else if (ticket_type == movie5 + "," + ticket_type2 + " X ") price += 150 * n;
+                else if (ticket_type == movie5 + "," + ticket_type3 + " X ") price += 200 * n;
+                else if (ticket_type == movie5 + "," + ticket_type4 + " X ") price += 175 * n;
             }
 
             label4.Text = price.ToString() + "元";
@@ -72,41 +77,46 @@ namespace Order_ticket_system
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (radioButton1.Checked && radioButton9.Checked) listBox1.Items.Add("動物方程式,一般票1張");
-            else if (radioButton1.Checked && radioButton10.Checked) listBox1.Items.Add("動物方程式,兒童票1張");
-            else if (radioButton1.Checked && radioButton11.Checked) listBox1.Items.Add("動物方程式,學生票1張");
-            else if (radioButton1.Checked && radioButton12.Checked) listBox1.Items.Add("動物方程式,老人票1張");
+            if (radioButton1.Checked)
+            {
+                if (radioButton9.Checked) listBox1.Items.Add(movie1+","+ticket_type1+" X " + count.ToString());
+                else if (radioButton10.Checked) listBox1.Items.Add(movie1 + "," + ticket_type2 + " X " + count.ToString());
+                else if (radioButton11.Checked) listBox1.Items.Add(movie1 + "," + ticket_type3 + " X " + count.ToString());
+                else if (radioButton12.Checked) listBox1.Items.Add(movie1 + "," + ticket_type4 + " X " + count.ToString() );
 
-            else if (radioButton2.Checked && radioButton9.Checked) listBox1.Items.Add("冰雪奇緣2,一般票1張");
-            else if (radioButton2.Checked && radioButton10.Checked) listBox1.Items.Add("冰雪奇緣2,兒童票1張");
-            else if (radioButton2.Checked && radioButton11.Checked) listBox1.Items.Add("冰雪奇緣2,學生票1張");
-            else if (radioButton2.Checked && radioButton12.Checked) listBox1.Items.Add("冰雪奇緣2,老人票1張");
+            }
+            if (radioButton2.Checked)
+            {
+                if (radioButton9.Checked) listBox1.Items.Add(movie2 + "," + ticket_type1 + " X " + count.ToString());
+                else if (radioButton10.Checked) listBox1.Items.Add(movie2 + "," + ticket_type2 + " X " + count.ToString());
+                else if (radioButton11.Checked) listBox1.Items.Add(movie2 + "," + ticket_type3 + " X " + count.ToString());
+                else if (radioButton12.Checked) listBox1.Items.Add(movie2 + "," + ticket_type4 + " X " + count.ToString());
 
-            else if (radioButton3.Checked && radioButton9.Checked) listBox1.Items.Add("黑魔女,一般票1張");
-            else if (radioButton3.Checked && radioButton10.Checked) listBox1.Items.Add("黑魔女,兒童票1張");
-            else if (radioButton3.Checked && radioButton11.Checked) listBox1.Items.Add("黑魔女,學生票1張");
-            else if (radioButton3.Checked && radioButton12.Checked) listBox1.Items.Add("黑魔女,老人票1張");
+            }
+            if (radioButton3.Checked)
+            {
+                if (radioButton9.Checked) listBox1.Items.Add(movie3 + "," + ticket_type1 + " X " + count.ToString());
+                else if (radioButton10.Checked) listBox1.Items.Add(movie3 + "," + ticket_type2 + " X " + count.ToString());
+                else if (radioButton11.Checked) listBox1.Items.Add(movie3 + "," + ticket_type3 + " X " + count.ToString());
+                else if (radioButton12.Checked) listBox1.Items.Add(movie3 + "," + ticket_type4 + " X " + count.ToString());
 
-            else if (radioButton4.Checked && radioButton9.Checked) listBox1.Items.Add("星際大戰8,一般票1張");
-            else if (radioButton4.Checked && radioButton10.Checked) listBox1.Items.Add("星際大戰8,兒童票1張");
-            else if (radioButton4.Checked && radioButton11.Checked) listBox1.Items.Add("星際大戰8,學生票1張");
-            else if (radioButton4.Checked && radioButton12.Checked) listBox1.Items.Add("星際大戰8,老人票1張");
+            }
+            if (radioButton4.Checked)
+            {
+                if (radioButton9.Checked) listBox1.Items.Add(movie4 + "," + ticket_type1 + " X " + count.ToString());
+                else if (radioButton10.Checked) listBox1.Items.Add(movie4 + "," + ticket_type2 + " X " + count.ToString());
+                else if (radioButton11.Checked) listBox1.Items.Add(movie4 + "," + ticket_type3 + " X " + count.ToString());
+                else if (radioButton12.Checked) listBox1.Items.Add(movie4 + "," + ticket_type4 + " X " + count.ToString());
 
-            else if (radioButton5.Checked && radioButton9.Checked) listBox1.Items.Add("天氣之子,一般票1張");
-            else if (radioButton5.Checked && radioButton10.Checked) listBox1.Items.Add("天氣之子,兒童票1張");
-            else if (radioButton5.Checked && radioButton11.Checked) listBox1.Items.Add("天氣之子,學生票1張");
-            else if (radioButton5.Checked && radioButton12.Checked) listBox1.Items.Add("天氣之子,老人票1張");
+            }
+            if (radioButton5.Checked)
+            {
+                if (radioButton9.Checked) listBox1.Items.Add(movie5 + "," + ticket_type1 + " X " + count.ToString());
+                else if (radioButton10.Checked) listBox1.Items.Add(movie5 + "," + ticket_type2 + " X " + count.ToString());
+                else if (radioButton11.Checked) listBox1.Items.Add(movie5 + "," + ticket_type3 + " X " + count.ToString());
+                else if (radioButton12.Checked) listBox1.Items.Add(movie5 + "," + ticket_type4 + " X " + count.ToString());
 
-            TotalPrice();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if (checkBox1.Checked == true) listBox2.Items.Add("爆米花(大)");
-            if (checkBox2.Checked == true) listBox2.Items.Add("爆米花(中)");
-            if (checkBox3.Checked == true) listBox2.Items.Add("爆米花(小)");
-            if (checkBox4.Checked == true) listBox2.Items.Add("可樂");
-            if (checkBox5.Checked == true) listBox2.Items.Add("雪碧");
+            }
 
             TotalPrice();
         }
@@ -118,11 +128,6 @@ namespace Order_ticket_system
             {
                 listBox1.Items.RemoveAt(index1);
             }
-            int index2 = listBox2.SelectedIndex;
-            if (index2 != -1) //if (index2 >= 0)
-            {
-                listBox2.Items.RemoveAt(index2);
-            }
 
             TotalPrice();
         }
@@ -130,7 +135,6 @@ namespace Order_ticket_system
         private void button4_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
-            listBox2.Items.Clear();
 
             TotalPrice();
         }
@@ -162,6 +166,22 @@ namespace Order_ticket_system
                 Bitmap bitmap = new Bitmap(@"pic\WeatheringWithYou.jpg");
                 pictureBox1.Image = bitmap;
             }
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            count += 1;
+            label1.Text=count.ToString();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (count > 1)
+            {
+                count -= 1;
+                label1.Text = count.ToString();
+            }
+            else MessageBox.Show("票數不能小於1");
         }
     }
 }
