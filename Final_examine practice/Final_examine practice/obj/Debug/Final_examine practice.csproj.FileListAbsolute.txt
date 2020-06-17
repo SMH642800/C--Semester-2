@@ -1,0 +1,14 @@
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine practice.csprojAssemblyReference.cache
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine_practice.Form1.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine_practice.Properties.Resources.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine practice.csproj.GenerateResource.cache
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine practice.csproj.CoreCompileInputs.cache
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\bin\Debug\Final_examine practice.exe.config
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\bin\Debug\Final_examine practice.exe
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\bin\Debug\Final_examine practice.pdb
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine practice.exe
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine practice.pdb
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine_practice.Form2.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine_practice.Form3.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine_practice.Form4.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine_practice.Form5.resources
