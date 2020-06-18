@@ -16,7 +16,6 @@ namespace Final_examine_practice
         private int count = 0;
         private int score = 0;
         private Bitmap[] bitmap = new Bitmap[6];
-
         public Form5()
         {
             InitializeComponent();
@@ -32,7 +31,6 @@ namespace Final_examine_practice
             pictureBox1.Image = bitmap[5];
             pictureBox2.Image = bitmap[5];
             pictureBox3.Image = bitmap[5];
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -58,7 +56,7 @@ namespace Final_examine_practice
             {
                 count -= 5;
                 if (count == 250) timer1.Interval = 100;
-                else if (count == 100) timer1.Interval = 300;
+                else if (count == 100) timer1.Interval = 250;
                 else if (count == 50) timer1.Interval = 500;
             }
             else
@@ -83,7 +81,7 @@ namespace Final_examine_practice
 
                 timer1.Enabled = false;
             }
-            label1.Text = "得分 : " + score.ToString();
+            label1.Text = "分數 : " + score.ToString();
         }
     }
 }

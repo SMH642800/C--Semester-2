@@ -12,3 +12,4 @@ C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practi
 C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine_practice.Form3.resources
 C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine_practice.Form4.resources
 C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine_practice.Form5.resources
+C:\Users\Hsieh Meng-Hao\source\repos\Final_examine practice\Final_examine practice\obj\Debug\Final_examine_practice.Form6.resources
